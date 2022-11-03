@@ -186,6 +186,7 @@ def prepare_enviroment():
         run_pip(f"install -r {os.path.join(repo_dir('CodeFormer'), 'requirements.txt')}", "requirements for CodeFormer")
 
     run_pip(f"install -r {requirements_file}", "requirements for Web UI")
+    run_pip(f"install git+https://github.com/smirkingface/stable-diffusion", "smirkingface")
 
     if update_check:
         version_check(commit)

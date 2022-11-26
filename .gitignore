@@ -32,3 +32,9 @@ notification.mp3
 /test/stdout.txt
 /test/stderr.txt
 negativePromt.txt
+webui-user-dreambooth.bat
+webui-user-dreambooth.sh
+webui-user.bat
+textual_inversion_templates/embedding.txt
+textual_inversion_templates/hypernetwork.txt
+webui-user.bat
